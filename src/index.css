@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #2d6583;
+  --color-primary-container: #a4d8fc;
+  --color-on-primary-container: #0b4c6a;
+  --color-secondary: #6b5f25;
+  --color-secondary-container: #f4e29b;
+  --color-on-secondary-container: #5d5119;
+  --color-tertiary: #6f567b;
+  --color-tertiary-container: #f2d2fe;
+  --color-on-tertiary-container: #5d4569;
+  --color-error: #a83836;
+  --color-error-container: #fa746f;
+  --color-on-error-container: #6e0a12;
+  --color-background: #fbf9f5;
+  --color-surface: #fbf9f5;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f5f4ef;
+  --color-surface-container: #efeee9;
+  --color-on-surface: #31332f;
+  --color-on-surface-variant: #5e605b;
+  --color-outline: #7a7b76;
+  --color-outline-variant: #b2b2ad;
+  --color-macaron-blue: #E3F2FD;
+  --color-macaron-pink: #FCE4EC;
+  --color-macaron-yellow: #FFF9C4;
+  --color-macaron-purple: #F3E5F5;
+  --color-macaron-green: #E8F5E9;
+
+  --font-headline: "Plus Jakarta Sans", "PingFang SC", sans-serif;
+  --font-body: "Be Vietnam Pro", "PingFang SC", sans-serif;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    background-color: #fbf9f5;
+    -webkit-font-smoothing: antialiased;
+    overscroll-behavior-y: none; 
+}
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    vertical-align: middle;
+}
+.icon-filled {
+    font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.glass-panel {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
